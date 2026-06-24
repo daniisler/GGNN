@@ -13,3 +13,5 @@ checkpoint/
 checkpoints/
 log/
 logs/
+
+*.pt
