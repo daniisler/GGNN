@@ -3,7 +3,7 @@ requires = ["uv_build >= 0.10.10, <0.12.0"]
 build-backend = "uv_build"
 
 [project]
-name = "GGNN"
+name = "GGNN-equiflashv2"
 version = "0.0.1"
 description = "GGNN: EquFlashV2"
 readme = "README.md"
@@ -51,6 +51,8 @@ dependencies = [
 
     "ase_db_backends==0.11.0",
     "nvalchemi-toolkit-ops==0.3.0",
+
+    "fairchem-core",
 ]
 
 [tool.uv]
@@ -64,6 +66,9 @@ module-root = ""
 [[tool.uv.index]]
 name = "pytorch-cu126"
 url = "https://download.pytorch.org/whl/cu126"
+
+[tool.uv.sources]
+fairchem-core = { path = "./fairchem" }
 
 [tool.uv_build]
 include = ["GGNN/**/*.pyi", "GGNN/py.typed"]

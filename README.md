@@ -7,8 +7,7 @@ The core structure of the package is based on [fairchem-core](https://github.com
 ## Install
 
 ```bash
-pip install -r requirements.txt
-pip install --no-deps -r requirements-no-deps.txt
+pip install ggnn-equiflashv2
 ```
 
 **Requirements:** Python 3.12, PyTorch 2.9.1 (CUDA 12.6)
