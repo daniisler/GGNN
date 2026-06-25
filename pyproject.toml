@@ -3,7 +3,7 @@ requires = ["uv_build >= 0.10.10, <0.12.0"]
 build-backend = "uv_build"
 
 [project]
-name = "GGNN-equiflashv2"
+name = "EquFlash"
 version = "0.0.1"
 description = "GGNN: EquFlashV2"
 readme = "README.md"
