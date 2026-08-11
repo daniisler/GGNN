@@ -331,5 +331,13 @@
         "type": "huggingface_hub",
         "repo_id": "facebook/OMAT24",
         "filename": "esen_30m_mptrj.pt"
+    },
+    "EquFlash": {
+        "type": "url",
+        "url": "https://api.figshare.com/v2/file/download/65435004"
+    },
+    "EquFlashV2": {
+        "type": "url",
+        "url": "https://api.figshare.com/v2/file/download/65435007"
     }
 }

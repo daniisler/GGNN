@@ -8,3 +8,6 @@ version = "0.10.0"
 
 [tool.uv.build-backend]
 module-name = "fairchem.core"
+
+[tool.uv_build]
+include = ["core/**/*.json"]
